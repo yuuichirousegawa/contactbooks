@@ -1,0 +1,18 @@
+<div class="row">
+  <aside class="col-xs-2">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <img class="media-object img-rounded img-responsive" src="<%= gravatar_url(@user, { size: 400 }) %>" alt="">
+      </div>
+    </div>
+      <div class="panel-footer">
+        <h3 class="panel-title">名前:<%= @user.name %></h3>
+      </div>
+  </aside>
+  <div class="col-sm-4">
+    <ul class="userprofile">
+      <li>介護歴</li>
+      <li>資格</li>
+    </ul>
+  </div>
+</div>
